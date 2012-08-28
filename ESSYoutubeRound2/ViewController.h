@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESSYouTube.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+
+@property (retain, nonatomic) NSURL *videoURL;
+@property (retain) ESSYouTube *yt;
+
+- (IBAction)uploadButton:(id)sender;
 
 @end

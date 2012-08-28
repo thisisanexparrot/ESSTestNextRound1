@@ -15,6 +15,36 @@
 		8F15CB7815BF3CCE00915488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB7715BF3CCE00915488 /* AppDelegate.m */; };
 		8F15CB7B15BF3CCE00915488 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB7A15BF3CCE00915488 /* ViewController.m */; };
 		8F15CB7E15BF3CCE00915488 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F15CB7C15BF3CCE00915488 /* ViewController.xib */; };
+		8F15CBA515BF3D3B00915488 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB8515BF3D3B00915488 /* Base64Transcoder.c */; };
+		8F15CBA615BF3D3B00915488 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB8815BF3D3B00915488 /* NSMutableURLRequest+Parameters.m */; };
+		8F15CBA715BF3D3B00915488 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB8A15BF3D3B00915488 /* NSString+URLEncoding.m */; };
+		8F15CBA815BF3D3B00915488 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB8C15BF3D3B00915488 /* NSURL+Base.m */; };
+		8F15CBA915BF3D3B00915488 /* OAAsynchronousDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB8E15BF3D3B00915488 /* OAAsynchronousDataFetcher.m */; };
+		8F15CBAA15BF3D3B00915488 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB9015BF3D3B00915488 /* OAConsumer.m */; };
+		8F15CBAB15BF3D3B00915488 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB9215BF3D3B00915488 /* OADataFetcher.m */; };
+		8F15CBAC15BF3D3B00915488 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB9415BF3D3B00915488 /* OAHMAC_SHA1SignatureProvider.m */; };
+		8F15CBAD15BF3D3B00915488 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB9615BF3D3B00915488 /* OAMutableURLRequest.m */; };
+		8F15CBAE15BF3D3B00915488 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB9815BF3D3B00915488 /* OAPlaintextSignatureProvider.m */; };
+		8F15CBAF15BF3D3B00915488 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB9A15BF3D3B00915488 /* OARequestParameter.m */; };
+		8F15CBB015BF3D3B00915488 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CB9C15BF3D3B00915488 /* OAServiceTicket.m */; };
+		8F15CBB115BF3D3B00915488 /* OATestServer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8F15CB9E15BF3D3B00915488 /* OATestServer.rb */; };
+		8F15CBB215BF3D3B00915488 /* OAToken_KeychainExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CBA015BF3D3B00915488 /* OAToken_KeychainExtensions.m */; };
+		8F15CBB315BF3D3B00915488 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CBA215BF3D3B00915488 /* OAToken.m */; };
+		8F15CBB615BF3D5B00915488 /* ESSYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CBB515BF3D5B00915488 /* ESSYouTube.m */; };
+		8F15CBBA15BF3D9F00915488 /* ESSYouTubeiOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15CBB815BF3D9F00915488 /* ESSYouTubeiOSViewController.m */; };
+		8F15CBBB15BF3D9F00915488 /* ESSYouTubeiOSView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F15CBB915BF3D9F00915488 /* ESSYouTubeiOSView_iPhone.xib */; };
+		8F15CBBD15BF3DCE00915488 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F15CBBC15BF3DCE00915488 /* Localizable.strings */; };
+		8F15CBC315BF486600915488 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F15CBC215BF486600915488 /* CoreData.framework */; };
+		8F15CBC515BF4AE500915488 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F15CBC415BF4AE500915488 /* MobileCoreServices.framework */; };
+		8FA4BEE615C1C3DD000F5D48 /* bkg_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEDD15C1C3DD000F5D48 /* bkg_logo.png */; };
+		8FA4BEE715C1C3DD000F5D48 /* bkg_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEDE15C1C3DD000F5D48 /* bkg_logo@2x.png */; };
+		8FA4BEE815C1C3DD000F5D48 /* bkg_nologo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEDF15C1C3DD000F5D48 /* bkg_nologo.png */; };
+		8FA4BEE915C1C3DD000F5D48 /* bkg_nologo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEE015C1C3DD000F5D48 /* bkg_nologo@2x.png */; };
+		8FA4BEEA15C1C3DD000F5D48 /* screenshot_wlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEE115C1C3DD000F5D48 /* screenshot_wlogo.png */; };
+		8FA4BEEB15C1C3DD000F5D48 /* upload_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEE215C1C3DD000F5D48 /* upload_active.png */; };
+		8FA4BEEC15C1C3DD000F5D48 /* upload_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEE315C1C3DD000F5D48 /* upload_active@2x.png */; };
+		8FA4BEED15C1C3DD000F5D48 /* upload_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEE415C1C3DD000F5D48 /* upload_pressed.png */; };
+		8FA4BEEE15C1C3DD000F5D48 /* upload_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4BEE515C1C3DD000F5D48 /* upload_pressed@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +52,64 @@
 		8F15CB6715BF3CCE00915488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8F15CB6915BF3CCE00915488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F15CB6B15BF3CCE00915488 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8F15CB6F15BF3CCE00915488 /* ESSYoutubeRound2-Info.plist */ = {isa = PBXFileReference; path = "ESSYoutubeRound2-Info.plist"; sourceTree = "<group>"; };
+		8F15CB6F15BF3CCE00915488 /* ESSYoutubeRound2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESSYoutubeRound2-Info.plist"; sourceTree = "<group>"; };
 		8F15CB7115BF3CCE00915488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F15CB7315BF3CCE00915488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F15CB7515BF3CCE00915488 /* ESSYoutubeRound2-Prefix.pch */ = {isa = PBXFileReference; path = "ESSYoutubeRound2-Prefix.pch"; sourceTree = "<group>"; };
-		8F15CB7615BF3CCE00915488 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F15CB7515BF3CCE00915488 /* ESSYoutubeRound2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESSYoutubeRound2-Prefix.pch"; sourceTree = "<group>"; };
+		8F15CB7615BF3CCE00915488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F15CB7715BF3CCE00915488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F15CB7915BF3CCE00915488 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8F15CB7915BF3CCE00915488 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8F15CB7A15BF3CCE00915488 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F15CB7D15BF3CCE00915488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8F15CB8515BF3D3B00915488 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		8F15CB8615BF3D3B00915488 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		8F15CB8715BF3D3B00915488 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		8F15CB8815BF3D3B00915488 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		8F15CB8915BF3D3B00915488 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		8F15CB8A15BF3D3B00915488 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		8F15CB8B15BF3D3B00915488 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		8F15CB8C15BF3D3B00915488 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		8F15CB8D15BF3D3B00915488 /* OAAsynchronousDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAsynchronousDataFetcher.h; sourceTree = "<group>"; };
+		8F15CB8E15BF3D3B00915488 /* OAAsynchronousDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAsynchronousDataFetcher.m; sourceTree = "<group>"; };
+		8F15CB8F15BF3D3B00915488 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		8F15CB9015BF3D3B00915488 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		8F15CB9115BF3D3B00915488 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		8F15CB9215BF3D3B00915488 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		8F15CB9315BF3D3B00915488 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		8F15CB9415BF3D3B00915488 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		8F15CB9515BF3D3B00915488 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		8F15CB9615BF3D3B00915488 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		8F15CB9715BF3D3B00915488 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		8F15CB9815BF3D3B00915488 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		8F15CB9915BF3D3B00915488 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		8F15CB9A15BF3D3B00915488 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		8F15CB9B15BF3D3B00915488 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		8F15CB9C15BF3D3B00915488 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		8F15CB9D15BF3D3B00915488 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		8F15CB9E15BF3D3B00915488 /* OATestServer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = OATestServer.rb; sourceTree = "<group>"; };
+		8F15CB9F15BF3D3B00915488 /* OAToken_KeychainExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken_KeychainExtensions.h; sourceTree = "<group>"; };
+		8F15CBA015BF3D3B00915488 /* OAToken_KeychainExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken_KeychainExtensions.m; sourceTree = "<group>"; };
+		8F15CBA115BF3D3B00915488 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		8F15CBA215BF3D3B00915488 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		8F15CBA315BF3D3B00915488 /* OAuthConsumer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer_Prefix.pch; sourceTree = "<group>"; };
+		8F15CBA415BF3D3B00915488 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		8F15CBB415BF3D5B00915488 /* ESSYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESSYouTube.h; path = ../ESSYouTube.h; sourceTree = "<group>"; };
+		8F15CBB515BF3D5B00915488 /* ESSYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESSYouTube.m; path = ../ESSYouTube.m; sourceTree = "<group>"; };
+		8F15CBB715BF3D9F00915488 /* ESSYouTubeiOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSYouTubeiOSViewController.h; sourceTree = "<group>"; };
+		8F15CBB815BF3D9F00915488 /* ESSYouTubeiOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSYouTubeiOSViewController.m; sourceTree = "<group>"; };
+		8F15CBB915BF3D9F00915488 /* ESSYouTubeiOSView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESSYouTubeiOSView_iPhone.xib; sourceTree = "<group>"; };
+		8F15CBBC15BF3DCE00915488 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8F15CBC215BF486600915488 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8F15CBC415BF4AE500915488 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8FA4BEDD15C1C3DD000F5D48 /* bkg_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg_logo.png; sourceTree = "<group>"; };
+		8FA4BEDE15C1C3DD000F5D48 /* bkg_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bkg_logo@2x.png"; sourceTree = "<group>"; };
+		8FA4BEDF15C1C3DD000F5D48 /* bkg_nologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg_nologo.png; sourceTree = "<group>"; };
+		8FA4BEE015C1C3DD000F5D48 /* bkg_nologo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bkg_nologo@2x.png"; sourceTree = "<group>"; };
+		8FA4BEE115C1C3DD000F5D48 /* screenshot_wlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_wlogo.png; sourceTree = "<group>"; };
+		8FA4BEE215C1C3DD000F5D48 /* upload_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload_active.png; sourceTree = "<group>"; };
+		8FA4BEE315C1C3DD000F5D48 /* upload_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload_active@2x.png"; sourceTree = "<group>"; };
+		8FA4BEE415C1C3DD000F5D48 /* upload_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload_pressed.png; sourceTree = "<group>"; };
+		8FA4BEE515C1C3DD000F5D48 /* upload_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload_pressed@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +117,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F15CBC515BF4AE500915488 /* MobileCoreServices.framework in Frameworks */,
+				8F15CBC315BF486600915488 /* CoreData.framework in Frameworks */,
 				8F15CB6815BF3CCE00915488 /* UIKit.framework in Frameworks */,
 				8F15CB6A15BF3CCE00915488 /* Foundation.framework in Frameworks */,
 				8F15CB6C15BF3CCE00915488 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +131,7 @@
 		8F15CB5815BF3CCE00915488 = {
 			isa = PBXGroup;
 			children = (
+				8F15CBC415BF4AE500915488 /* MobileCoreServices.framework */,
 				8F15CB6D15BF3CCE00915488 /* ESSYoutubeRound2 */,
 				8F15CB6615BF3CCE00915488 /* Frameworks */,
 				8F15CB6415BF3CCE00915488 /* Products */,
@@ -67,6 +149,7 @@
 		8F15CB6615BF3CCE00915488 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F15CBC215BF486600915488 /* CoreData.framework */,
 				8F15CB6715BF3CCE00915488 /* UIKit.framework */,
 				8F15CB6915BF3CCE00915488 /* Foundation.framework */,
 				8F15CB6B15BF3CCE00915488 /* CoreGraphics.framework */,
@@ -80,6 +163,12 @@
 				8F15CB7615BF3CCE00915488 /* AppDelegate.h */,
 				8F15CB7715BF3CCE00915488 /* AppDelegate.m */,
 				8F15CB7915BF3CCE00915488 /* ViewController.h */,
+				8F15CBB415BF3D5B00915488 /* ESSYouTube.h */,
+				8F15CBB515BF3D5B00915488 /* ESSYouTube.m */,
+				8F15CBB715BF3D9F00915488 /* ESSYouTubeiOSViewController.h */,
+				8F15CBB815BF3D9F00915488 /* ESSYouTubeiOSViewController.m */,
+				8F15CBB915BF3D9F00915488 /* ESSYouTubeiOSView_iPhone.xib */,
+				8F15CB8415BF3D2F00915488 /* OAuth */,
 				8F15CB7A15BF3CCE00915488 /* ViewController.m */,
 				8F15CB7C15BF3CCE00915488 /* ViewController.xib */,
 				8F15CB6E15BF3CCE00915488 /* Supporting Files */,
@@ -90,12 +179,69 @@
 		8F15CB6E15BF3CCE00915488 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8FA4BEF015C1C3E6000F5D48 /* images */,
 				8F15CB6F15BF3CCE00915488 /* ESSYoutubeRound2-Info.plist */,
 				8F15CB7015BF3CCE00915488 /* InfoPlist.strings */,
 				8F15CB7315BF3CCE00915488 /* main.m */,
 				8F15CB7515BF3CCE00915488 /* ESSYoutubeRound2-Prefix.pch */,
+				8F15CBBC15BF3DCE00915488 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F15CB8415BF3D2F00915488 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8F15CB8515BF3D3B00915488 /* Base64Transcoder.c */,
+				8F15CB8615BF3D3B00915488 /* Base64Transcoder.h */,
+				8F15CB8715BF3D3B00915488 /* NSMutableURLRequest+Parameters.h */,
+				8F15CB8815BF3D3B00915488 /* NSMutableURLRequest+Parameters.m */,
+				8F15CB8915BF3D3B00915488 /* NSString+URLEncoding.h */,
+				8F15CB8A15BF3D3B00915488 /* NSString+URLEncoding.m */,
+				8F15CB8B15BF3D3B00915488 /* NSURL+Base.h */,
+				8F15CB8C15BF3D3B00915488 /* NSURL+Base.m */,
+				8F15CB8D15BF3D3B00915488 /* OAAsynchronousDataFetcher.h */,
+				8F15CB8E15BF3D3B00915488 /* OAAsynchronousDataFetcher.m */,
+				8F15CB8F15BF3D3B00915488 /* OAConsumer.h */,
+				8F15CB9015BF3D3B00915488 /* OAConsumer.m */,
+				8F15CB9115BF3D3B00915488 /* OADataFetcher.h */,
+				8F15CB9215BF3D3B00915488 /* OADataFetcher.m */,
+				8F15CB9315BF3D3B00915488 /* OAHMAC_SHA1SignatureProvider.h */,
+				8F15CB9415BF3D3B00915488 /* OAHMAC_SHA1SignatureProvider.m */,
+				8F15CB9515BF3D3B00915488 /* OAMutableURLRequest.h */,
+				8F15CB9615BF3D3B00915488 /* OAMutableURLRequest.m */,
+				8F15CB9715BF3D3B00915488 /* OAPlaintextSignatureProvider.h */,
+				8F15CB9815BF3D3B00915488 /* OAPlaintextSignatureProvider.m */,
+				8F15CB9915BF3D3B00915488 /* OARequestParameter.h */,
+				8F15CB9A15BF3D3B00915488 /* OARequestParameter.m */,
+				8F15CB9B15BF3D3B00915488 /* OAServiceTicket.h */,
+				8F15CB9C15BF3D3B00915488 /* OAServiceTicket.m */,
+				8F15CB9D15BF3D3B00915488 /* OASignatureProviding.h */,
+				8F15CB9E15BF3D3B00915488 /* OATestServer.rb */,
+				8F15CB9F15BF3D3B00915488 /* OAToken_KeychainExtensions.h */,
+				8F15CBA015BF3D3B00915488 /* OAToken_KeychainExtensions.m */,
+				8F15CBA115BF3D3B00915488 /* OAToken.h */,
+				8F15CBA215BF3D3B00915488 /* OAToken.m */,
+				8F15CBA315BF3D3B00915488 /* OAuthConsumer_Prefix.pch */,
+				8F15CBA415BF3D3B00915488 /* OAuthConsumer.h */,
+			);
+			name = OAuth;
+			sourceTree = "<group>";
+		};
+		8FA4BEF015C1C3E6000F5D48 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8FA4BEDD15C1C3DD000F5D48 /* bkg_logo.png */,
+				8FA4BEDE15C1C3DD000F5D48 /* bkg_logo@2x.png */,
+				8FA4BEDF15C1C3DD000F5D48 /* bkg_nologo.png */,
+				8FA4BEE015C1C3DD000F5D48 /* bkg_nologo@2x.png */,
+				8FA4BEE115C1C3DD000F5D48 /* screenshot_wlogo.png */,
+				8FA4BEE215C1C3DD000F5D48 /* upload_active.png */,
+				8FA4BEE315C1C3DD000F5D48 /* upload_active@2x.png */,
+				8FA4BEE415C1C3DD000F5D48 /* upload_pressed.png */,
+				8FA4BEE515C1C3DD000F5D48 /* upload_pressed@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +296,18 @@
 			files = (
 				8F15CB7215BF3CCE00915488 /* InfoPlist.strings in Resources */,
 				8F15CB7E15BF3CCE00915488 /* ViewController.xib in Resources */,
+				8F15CBB115BF3D3B00915488 /* OATestServer.rb in Resources */,
+				8F15CBBB15BF3D9F00915488 /* ESSYouTubeiOSView_iPhone.xib in Resources */,
+				8F15CBBD15BF3DCE00915488 /* Localizable.strings in Resources */,
+				8FA4BEE615C1C3DD000F5D48 /* bkg_logo.png in Resources */,
+				8FA4BEE715C1C3DD000F5D48 /* bkg_logo@2x.png in Resources */,
+				8FA4BEE815C1C3DD000F5D48 /* bkg_nologo.png in Resources */,
+				8FA4BEE915C1C3DD000F5D48 /* bkg_nologo@2x.png in Resources */,
+				8FA4BEEA15C1C3DD000F5D48 /* screenshot_wlogo.png in Resources */,
+				8FA4BEEB15C1C3DD000F5D48 /* upload_active.png in Resources */,
+				8FA4BEEC15C1C3DD000F5D48 /* upload_active@2x.png in Resources */,
+				8FA4BEED15C1C3DD000F5D48 /* upload_pressed.png in Resources */,
+				8FA4BEEE15C1C3DD000F5D48 /* upload_pressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +321,22 @@
 				8F15CB7415BF3CCE00915488 /* main.m in Sources */,
 				8F15CB7815BF3CCE00915488 /* AppDelegate.m in Sources */,
 				8F15CB7B15BF3CCE00915488 /* ViewController.m in Sources */,
+				8F15CBA515BF3D3B00915488 /* Base64Transcoder.c in Sources */,
+				8F15CBA615BF3D3B00915488 /* NSMutableURLRequest+Parameters.m in Sources */,
+				8F15CBA715BF3D3B00915488 /* NSString+URLEncoding.m in Sources */,
+				8F15CBA815BF3D3B00915488 /* NSURL+Base.m in Sources */,
+				8F15CBA915BF3D3B00915488 /* OAAsynchronousDataFetcher.m in Sources */,
+				8F15CBAA15BF3D3B00915488 /* OAConsumer.m in Sources */,
+				8F15CBAB15BF3D3B00915488 /* OADataFetcher.m in Sources */,
+				8F15CBAC15BF3D3B00915488 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				8F15CBAD15BF3D3B00915488 /* OAMutableURLRequest.m in Sources */,
+				8F15CBAE15BF3D3B00915488 /* OAPlaintextSignatureProvider.m in Sources */,
+				8F15CBAF15BF3D3B00915488 /* OARequestParameter.m in Sources */,
+				8F15CBB015BF3D3B00915488 /* OAServiceTicket.m in Sources */,
+				8F15CBB215BF3D3B00915488 /* OAToken_KeychainExtensions.m in Sources */,
+				8F15CBB315BF3D3B00915488 /* OAToken.m in Sources */,
+				8F15CBB615BF3D5B00915488 /* ESSYouTube.m in Sources */,
+				8F15CBBA15BF3D9F00915488 /* ESSYouTubeiOSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +446,7 @@
 				8F15CB8315BF3CCE00915488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
